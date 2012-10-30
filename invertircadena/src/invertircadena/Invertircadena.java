@@ -31,11 +31,11 @@ public class Invertircadena
           switch (menu)
           
           {
-              case 0:
+              case 1:
                   
                   System.out.print("el programa tiene como objetivo realizar una serie de instrucciones, las cuales se les a asignado un numero ,elija un numero y espere resultados");
                   break;
-     case 1:
+     case 2:
                   
                   String poke=lectura.next();
                   for(int i=poke.length() - 1; i >= 0; i--)
@@ -44,6 +44,11 @@ public class Invertircadena
                       System.out.print(c);
                   }
                   break;
+         case 3:
+                     String palabra = lectura.next();
+                    System.out.println("El largo de la Cadena es : " + palabra.length());
+                 break;
+         
     }
 }
 }
