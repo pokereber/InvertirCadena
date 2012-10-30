@@ -17,5 +17,8 @@ public class Invertircadena
     public static void main(String[] args)
     {
      System.out.print("INSTITUTO TECNOLOGICO SUPERIOR DE ESCRACEGA");
+     System.out.print("  JORGE D.J");
+     
+     
     }
 }
