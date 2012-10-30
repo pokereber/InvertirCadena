@@ -4,6 +4,8 @@
  */
 package invertircadena;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Jorge Dominguez J
@@ -19,6 +21,21 @@ public class Invertircadena
      System.out.print("INSTITUTO TECNOLOGICO SUPERIOR DE ESCRACEGA");
      System.out.print("  JORGE DOMINGUEZ JARAMILLO");
      
+     int menu=0;
+        Scanner lectura = new Scanner(System.in);
+        
+          
+          menu=lectura.nextInt();
+          
+          
+          switch (menu)
+          
+          {
+              case 0:
+                  
+                  System.out.print("el programa tiene como objetivo realizar una serie de instrucciones, las cuales se les a asignado un numero ,elija un numero y espere resultados");
+                  break;
      
     }
+}
 }
