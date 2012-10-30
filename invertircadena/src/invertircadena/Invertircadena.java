@@ -35,7 +35,15 @@ public class Invertircadena
                   
                   System.out.print("el programa tiene como objetivo realizar una serie de instrucciones, las cuales se les a asignado un numero ,elija un numero y espere resultados");
                   break;
-     
+     case 1:
+                  
+                  String poke=lectura.next();
+                  for(int i=poke.length() - 1; i >= 0; i--)
+                  {
+                      char c = poke.charAt(i);
+                      System.out.print(c);
+                  }
+                  break;
     }
 }
 }
